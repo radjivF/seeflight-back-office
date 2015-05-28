@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/xmen-dev',
+	db: 'mongodb://localhost/seeflight-back-office-dev',
 	app: {
-		title: 'Xmen - Development Environment'
+		title: 'seeflight-back-office - Development Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
