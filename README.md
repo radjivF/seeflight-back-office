@@ -1,4 +1,4 @@
-[![Seeflight Logo](https://avatars3.githubusercontent.com/u/9976297?v=3&s=200)]
+![Seeflight Logo](https://avatars3.githubusercontent.com/u/9976297?v=3&s=200)
 
 [![Build Status](https://travis-ci.org/meanjs/mean.svg?branch=master)](https://travis-ci.org/meanjs/mean)
 [![Dependencies Status](https://david-dm.org/meanjs/mean.svg)](https://david-dm.org/meanjs/mean)
