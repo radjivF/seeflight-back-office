@@ -1,3 +1,12 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+npm-debug.log
+node_modules/
+public/lib
+app/tests/coverage/
+.bower-*/
+.idea/
 # Build and Release Folders
 bin/
 bin-debug/
@@ -6,9 +15,7 @@ config/
 
 # Other files and folders
 .settings/
-Procfile
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-

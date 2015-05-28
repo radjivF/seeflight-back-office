@@ -2,8 +2,8 @@
 
 module.exports = {
 	app: {
-		title: 'Xmen',
-		description: 'super',
+		title: 'seeflight-back-office',
+		description: 'Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js',
 		keywords: 'MongoDB, Express, AngularJS, Node.js'
 	},
 	port: process.env.PORT || 3000,

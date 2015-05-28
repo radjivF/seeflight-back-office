@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/xmen-test',
+	db: 'mongodb://localhost/seeflight-back-office-test',
 	port: 3001,
 	app: {
-		title: 'Xmen - Test Environment'
+		title: 'seeflight-back-office - Test Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
