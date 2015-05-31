@@ -21,6 +21,9 @@ var AirportSchema = new Schema({
 		default: Date.now
 	},
 	city: {
+		type:{ type: Schema.Types.ObjectId, ref: 'City'}
+	},
+	country: {
 		type:{ type: Schema.Types.ObjectId, ref: 'Country'}
 	},
 	idAirport: {
