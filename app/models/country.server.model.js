@@ -22,7 +22,7 @@ var CountrySchema = new Schema({
 	},
 	city:{
 		type:[{ type: Schema.Types.ObjectId, ref: 'City'}]
-	},
+	}
 });
 
 mongoose.model('Country', CountrySchema);
