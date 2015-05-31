@@ -11,6 +11,9 @@
 				<span data-ng-bind="fly.user.displayName"></span>
 			</small>
 			<h4 class="list-group-item-heading" data-ng-bind="fly.name"></h4>
+            <h4 class="list-group-item-heading" data-ng-bind="fly.airplane"></h4>
+            <h4 class="list-group-item-heading" data-ng-bind="fly.airplane.name"></h4>
+            <h4 class="list-group-item-heading" data-ng-bind="fly.airplane.company"></h4>
         </a>
     </div>
     <div class="alert alert-warning text-center" data-ng-hide="!flies.$resolved || flies.length">
