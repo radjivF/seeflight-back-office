@@ -1,0 +1,19 @@
+<section data-ng-controller="AirportsController" data-ng-init="find()">
+    <div class="page-header">
+        <h1>Airports</h1>
+    </div>
+    <div class="list-group">
+        <a data-ng-repeat="airport in airports" data-ng-href="#!/airports/{{airport._id}}" class="list-group-item">
+			<small class="list-group-item-text">
+				Posted on
+				<span data-ng-bind="airport.created | date:'medium'"></span>
+				by
+				<span data-ng-bind="airport.user.displayName"></span>
+			</small>
+			<h4 class="list-group-item-heading" data-ng-bind="airport.name"></h4>
+        </a>
+    </div>
+    <div class="alert alert-warning text-center" data-ng-hide="!airports.$resolved || airports.length">
+    	No Airports yet, why don't you <a href="/#!/airports/create">create one</a>?
+    </div>
+</section>
