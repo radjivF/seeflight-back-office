@@ -88,6 +88,9 @@ var UserSchema = new Schema({
 	},
 	resetPasswordExpires: {
 		type: Date
+	},
+	oldResearch:{
+		type:[{ type: Schema.Types.ObjectId, ref: 'Research'}]
 	}
 });
 
