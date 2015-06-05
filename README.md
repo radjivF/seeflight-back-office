@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/seeflight/seeflight-back-office.svg?branch=master)](https://travis-ci.org/seeflight/seeflight-back-office)
 [![Dependencies Status](https://david-dm.org/seeflight/seeflight-back-office.svg)](https://david-dm.org/seeflight/seeflight-back-office)
+[![Code Climate](https://codeclimate.com/github/seeflight/seeflight-back-office/badges/gpa.svg)](https://codeclimate.com/github/seeflight/seeflight-back-office)
 
 Seeflight-backoffice is a full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. The idea is to solve the common issues with connecting those frameworks, build a robust framework to support daily development needs, and help developers use better practices while working with popular JavaScript components. 
 
