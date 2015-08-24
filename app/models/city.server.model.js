@@ -13,7 +13,6 @@ var CitySchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill City name',
 		trim: true
 	},
 	created: {

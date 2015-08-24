@@ -13,7 +13,6 @@ var FlySchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Fly name',
 		trim: true
 	},
 	created: {

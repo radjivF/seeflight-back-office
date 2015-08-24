@@ -13,7 +13,6 @@ var ResearchSchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Research name',
 		trim: true
 	},
 	created: {

@@ -13,7 +13,6 @@ var AirportSchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Airport name',
 		trim: true
 	},
 	created: {
@@ -28,7 +27,6 @@ var AirportSchema = new Schema({
 	},
 	idAirport: {
 		type: String,
-		required: 'Please fill Airport id'
 	}
 });
 

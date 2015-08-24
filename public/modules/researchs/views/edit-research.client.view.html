@@ -6,10 +6,24 @@
         <form class="form-horizontal" data-ng-submit="update()" novalidate>
             <fieldset>
                 <div class="form-group">
-                    <label class="control-label" for="name">Name</label>
-                    <div class="controls">
-                        <input type="text" data-ng-model="research.name" id="name" class="form-control" placeholder="Name" required>
-                    </div>
+                  <label class="control-label" for="name">Name</label>
+                  <div class="controls">
+                      <input type="text" data-ng-model="name" id="name" class="form-control" placeholder="Name" required>
+                  </div>
+
+                  <label class="control-label" for="name">User</label>
+                  <div class="controls">
+                      <input type="text" data-ng-model="user.displayName" id="user" class="form-control" placeholder="User" required>
+                  </div>
+
+                  <label class="control-label" for="name">startAirport</label>
+                  <div class="controls">
+                      <input type="text" data-ng-model="startAirport.name" id="user" class="form-control" placeholder="startAirport" required>
+                  </div>
+                  <label class="control-label" for="name">stopAirport</label>
+                  <div class="controls">
+                      <input type="text" data-ng-model="stopAirport.name" id="user" class="form-control" placeholder="stopAirport" required>
+                  </div>
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Update" class="btn btn-default">

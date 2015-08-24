@@ -7,10 +7,6 @@
 		"node": "0.10.x",
 		"npm": "1.4.x"
 	},
-	"repository": {
-    		"type": "git",
-		"url": "https://github.com/seeflight/seeflight-back-office.git"
-  	},
 	"scripts": {
 		"start": "grunt",
 		"test": "grunt test",

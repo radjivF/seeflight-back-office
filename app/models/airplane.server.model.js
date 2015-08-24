@@ -13,7 +13,6 @@ var AirplaneSchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Airplane name',
 		trim: true
 	},
 	created: {
@@ -23,7 +22,6 @@ var AirplaneSchema = new Schema({
 	company: {
 		type: String,
 		default: '',
-		required: 'Please fill Airplane name',
 		trim: true
 	}
 });

@@ -13,7 +13,6 @@ var CountrySchema = new Schema({
 	name: {
 		type: String,
 		default: '',
-		required: 'Please fill Country name',
 		trim: true
 	},
 	created: {
